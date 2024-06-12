@@ -1,0 +1,103 @@
+body {
+  background-image: url('valorant.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.jett h1 {
+  font-size: 24px;
+  font-family: 'Comic Sans MS', cursive;
+  text-shadow: 2px 2px 5px #600, -2px 2px 5px orangered, 2px -2px 5px gray;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  font-size: 18px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+#disc {
+  border: 1px solid white;
+  padding: 7px 14px;
+  border-radius: 25px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+aside {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+}
+
+h2 {
+  text-shadow: 1px 1px 2px darkred;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+#J {
+  font-size: 26px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: darkred;
+}
+
+td {
+  background-color: rgba(255, 0, 0, 0.1);
+}
